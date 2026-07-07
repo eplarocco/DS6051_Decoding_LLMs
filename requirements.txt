@@ -1,6 +1,4 @@
 # Week 1 Requirements
-# week_1_word2vec.ipynb + week_1_sentiment_classifier.ipynb
-
 gensim
 numpy
 pandas
@@ -12,8 +10,19 @@ matplotlib
 scikit-learn
 seaborn
 
+# Week 2 Requirements
+sentencepiece
+transformers
+datasets
+
 # After installing spacy, download the English model:
 # python -m spacy download en_core_web_sm
 #
 # After installing nltk, download stopwords corpus:
 # python -c "import nltk; nltk.download('stopwords')"
+
+# Set up virtual env and kernel
+# python3.12 -m venv .dscourse
+# source .dscourse/bin/activate
+# pip install ipykernel
+# python -m ipykernel install --user --name=dscourse --display-name "Python (.dscourse)"
